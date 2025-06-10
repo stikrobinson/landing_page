@@ -101,26 +101,6 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
-    <!-- Page loading -->
-    <div
-      class="page-loading fixed top-0 bottom-0 left-0 right-0 z-[99999] flex items-center justify-center bg-primary-light-1 dark:bg-primary-dark-1 opacity-100 visible pointer-events-auto"
-      role="status"
-      aria-live="polite"
-      aria-atomic="true"
-      aria-label="Loading..."
-    >
-      <div class="grid-loader">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
 
     <!-- Navbar -->
     <header
@@ -225,14 +205,6 @@
                 </ul>
               </nav>
             </div>
-            <div class="flex items-center justify-end pr-[52px] lg:pr-0">
-              <button
-                type="button"
-                class="inline-flex items-center text-primary-color text-[24px]/none"
-                aria-label="Switch theme"
-                data-web-trigger="web-theme"
-              ></button>
-            </div>
           </div>
         </div>
       </div>
@@ -245,12 +217,12 @@
         class="relative overflow-hidden bg-primary text-primary-color pt-[120px] md:pt-[130px] lg:pt-[160px]"
       >
         <div class="container">
-          <div class="-mx-5 flex flex-wrap items-center">
+          <div class="-mx-5 flex flex-col lg:flex-row items-center py-12">
             <div class="w-full lg:w-1/2 px-5 flex justify-center">
               <img
-                src="./assets/img/foto-personal.jpg"
+                src="./digrumo.png"
                 alt="Foto en primera persona"
-                class="rounded-2xl shadow-lg max-w-[350px] w-full object-cover"
+                class="rounded-2xl shadow-lg object-cover"
               />
             </div>
             <div class="w-full lg:w-1/2 px-5 flex flex-col items-start justify-center mt-8 lg:mt-0">
@@ -267,13 +239,13 @@
                   href="#contact"
                   class="inline-block px-6 py-3 rounded-md bg-green-400 text-white font-semibold shadow-md hover:bg-green-500 transition"
                   role="button"
-                  >Reserva una clase online</a
+                  >Reserva una clase ahora</a
                 >
                 <a
                   href="#pricing"
                   class="inline-block px-6 py-3 rounded-md bg-[#CE2B37] text-white font-semibold shadow-md hover:bg-red-700 transition"
                   role="button"
-                  >Conoce los encuentros presenciales</a
+                  >Conoce los diferentes encuentros</a
                 >
               </div>
             </div>
@@ -288,7 +260,7 @@
             <div class="w-full flex justify-center">
               <figure class="scroll-revealed max-w-[480px] mx-auto">
                 <img
-                  src="./assets/img/foto-ig-grupo.jpg"
+                  src="./aperitivo.jpg"
                   alt="Foto de Instagram con otros"
                   class="rounded-xl"
                 />
@@ -740,60 +712,6 @@
       <section id="contact" class="section-area">
         <div class="container">
           <div class="row">
-            <div class="col-12 xl:col-4">
-              <div class="row">
-                <div class="col-12 md:col-6 xl:col-12">
-                  <div
-                    class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
-                  >
-                    <div>
-                      <i
-                        class="lni lni-phone w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
-                      ></i>
-                    </div>
-                    <div>
-                      <h4 class="text-[1.25rem] text-primary mb-3">Contacto</h4>
-                      <p class="m-0">0984537278623</p>
-                      <p class="m-0">yourmail@gmail.com</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12 md:col-6 xl:col-12">
-                  <div
-                    class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
-                  >
-                    <div>
-                      <i
-                        class="lni lni-map-marker w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
-                      ></i>
-                    </div>
-                    <div>
-                      <h4 class="text-[1.25rem] text-primary mb-3">Dirección</h4>
-                      <p class="m-0">175 5th Ave, New York, NY 10010</p>
-                      <p class="m-0">United States</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12 md:col-6 xl:col-12">
-                  <div
-                    class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
-                  >
-                    <div>
-                      <i
-                        class="lni lni-alarm-clock w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
-                      ></i>
-                    </div>
-                    <div>
-                      <h4 class="text-[1.25rem] text-primary mb-3">Horario</h4>
-                      <p class="m-0">24 Horas / 7 Días Abierto</p>
-                      <p class="m-0">Horario de oficina: 10:00 AM - 5:30 PM</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div class="col-12 xl:col-8">
               <div
