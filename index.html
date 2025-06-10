@@ -129,15 +129,13 @@
       aria-label="Navigation bar"
     >
       <div class="container">
-        <div
-          class="ic-navbar-container relative -mx-5 flex items-center justify-between"
-        >
+        <div class="ic-navbar-container relative -mx-5 flex items-center justify-between">
           <div class="w-60 lg:w-56 max-w-full px-5">
             <a
               href="."
               class="ic-navbar-logo block w-full py-5 text-primary-color"
             >
-               <img src="./logo.png" alt="Logo" class="h-10 w-auto" />
+              <img src="./logo.png" alt="Logo" class="h-10 w-auto" />
             </a>
           </div>
           <div class="flex w-full items-center justify-between px-5">
@@ -167,7 +165,16 @@
                       href="#home"
                       class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mx-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70 active"
                       role="menuitem"
-                      >Home</a
+                      >Inicio</a
+                    >
+                  </li>
+
+                  <li class="group relative">
+                    <a
+                      href="#about"
+                      class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
+                      role="menuitem"
+                      >Acerca de</a
                     >
                   </li>
 
@@ -176,16 +183,7 @@
                       href="#services"
                       class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
                       role="menuitem"
-                      >Services</a
-                    >
-                  </li>
-
-                  <li class="group relative">
-                    <a
-                      href="#portfolio"
-                      class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
-                      role="menuitem"
-                      >Portfolio</a
+                      >Beneficios</a
                     >
                   </li>
 
@@ -194,16 +192,25 @@
                       href="#pricing"
                       class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
                       role="menuitem"
-                      >Pricing</a
+                      >Precios</a
                     >
                   </li>
 
                   <li class="group relative">
                     <a
-                      href="#team"
+                      href="#testimonials"
                       class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
                       role="menuitem"
-                      >Team</a
+                      >Testimonios</a
+                    >
+                  </li>
+
+                  <li class="group relative">
+                    <a
+                      href="#faq"
+                      class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
+                      role="menuitem"
+                      >Preguntas frecuentes</a
                     >
                   </li>
 
@@ -212,7 +219,7 @@
                       href="#contact"
                       class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
                       role="menuitem"
-                      >Contact</a
+                      >Contacto</a
                     >
                   </li>
                 </ul>
@@ -225,14 +232,6 @@
                 aria-label="Switch theme"
                 data-web-trigger="web-theme"
               ></button>
-              <div class="hidden sm:flex">
-                <a
-                  href="javascript:void(0)"
-                  class="btn-navbar ml-5 px-6 py-3 rounded-md bg-primary-color bg-opacity-20 text-base font-medium text-primary-color hover:bg-opacity-100 hover:text-primary"
-                  role="button"
-                  >Get Started</a
-                >
-              </div>
             </div>
           </div>
         </div>
@@ -240,376 +239,176 @@
     </header>
 
     <main class="main relative">
-      <!-- Hero section -->
+      <!-- INICIO -->
       <section
         id="home"
         class="relative overflow-hidden bg-primary text-primary-color pt-[120px] md:pt-[130px] lg:pt-[160px]"
       >
         <div class="container">
           <div class="-mx-5 flex flex-wrap items-center">
-            <div class="w-full px-5">
-              <div class="scroll-revealed mx-auto max-w-[780px] text-center">
-                <h1
-                  class="mb-6 text-3xl font-bold leading-snug text-primary-color sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-tight"
-                >
-                  Tailwind CSS Company Landing Page by Ranyeh
-                </h1>
-
-                <p
-                  class="mx-auto mb-9 max-w-[600px] text-base text-primary-color sm:text-lg sm:leading-normal"
-                >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Possimus qui impedit veniam, nesciunt nostrum vel repellat
-                  reprehenderit dignissimos harum, iste ex sit illo?
-                </p>
-
-                <ul
-                  class="mb-10 flex flex-wrap items-center justify-center gap-4 md:gap-5"
-                >
-                  <li>
-                    <a
-                      href="javascript:void(0)"
-                      class="inline-flex items-center justify-center rounded-md bg-primary-color text-primary px-5 py-3 text-center text-base font-medium shadow-md hover:bg-primary-light-5 md:px-7 md:py-[14px]"
-                      role="button"
-                      >Get Started</a
-                    >
-                  </li>
-
-                  <li>
-                    <a
-                      href="javascript:boid(0)"
-                      class="video-popup flex items-center gap-4 rounded-md bg-primary-color/[0.15] px-5 py-3 text-base font-medium text-primary-color hover:bg-primary-color hover:text-primary md:px-7 md:py-[14px]"
-                      role="button"
-                      ><i class="lni lni-play text-lg/none"></i> Watch Intro</a
-                    >
-                  </li>
-                </ul>
-
-                <div>
-                  <p class="mb-4 text-center text-primary-color">Powered by</p>
-
-                  <div
-                    class="scroll-revealed flex items-center justify-center gap-4 text-center"
-                  >
-                    <a
-                      href="https://tailwindcss.com/"
-                      target="_blank"
-                      class="text-primary-color/60 hover:text-primary-color"
-                    >
-                      <svg
-                        class="fill-current"
-                        height="26"
-                        viewBox=".16 .18 799.8 98.72"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="m248.04 41.78h-14.42v27.79c0 7.41 4.89 7.29 14.42 6.83v11.23c-19.3 2.32-26.98-3.01-26.98-18.06v-27.79h-10.7v-12.05h10.7v-15.55l12.56-3.7v19.25h14.42zm54.98-12.05h12.56v57.9h-12.56v-8.34c-4.42 6.14-11.29 9.85-20.36 9.85-15.81 0-28.95-13.32-28.95-30.46 0-17.25 13.14-30.45 28.95-30.45 9.07 0 15.94 3.7 20.36 9.72zm-18.38 47.48c10.47 0 18.38-7.76 18.38-18.53s-7.91-18.53-18.38-18.53-18.37 7.76-18.37 18.53 7.9 18.53 18.37 18.53zm51.87-56.16c-4.42 0-8.03-3.71-8.03-7.99.01-1.05.22-2.09.62-3.06a7.997 7.997 0 0 1 4.34-4.32c.97-.4 2.02-.61 3.07-.61s2.09.21 3.07.61c.97.4 1.85.99 2.6 1.73.74.75 1.33 1.63 1.74 2.59.4.97.61 2.01.61 3.06 0 4.28-3.6 7.99-8.02 7.99zm-6.28 66.58v-57.9h12.56v57.9zm27.1 0v-84.53h12.56v84.53zm94.08-57.9h13.26l-18.26 57.9h-12.33l-12.09-39.02-12.21 39.02h-12.33l-18.26-57.9h13.26l11.28 39.95 12.21-39.95h11.98l12.09 39.95zm28.84-8.68c-4.42 0-8.02-3.71-8.02-7.99 0-1.05.21-2.09.61-3.06.41-.96 1-1.84 1.74-2.59.75-.74 1.63-1.33 2.6-1.73.98-.4 2.02-.61 3.07-.61a8.044 8.044 0 0 1 5.67 2.34c.75.75 1.34 1.63 1.74 2.59.41.97.62 2.01.62 3.06 0 4.28-3.61 7.99-8.03 7.99zm-6.28 66.58v-57.9h12.56v57.9zm80.02-35.55v35.55h-12.56v-34.27c0-8.81-5.12-13.44-13.03-13.44-8.26 0-14.77 4.87-14.77 16.68v31.03h-12.56v-57.9h12.56v7.41c3.84-6.02 10.12-8.91 18.03-8.91 13.02 0 22.33 8.8 22.33 23.85zm59.54-45.51h12.56v81.06h-12.56v-8.34c-4.42 6.14-11.28 9.85-20.35 9.85-15.82 0-28.96-13.32-28.96-30.46 0-17.25 13.14-30.45 28.96-30.45 9.07 0 15.93 3.7 20.35 9.72zm-18.37 70.64c10.46 0 18.37-7.76 18.37-18.53s-7.91-18.53-18.37-18.53c-10.47 0-18.38 7.76-18.38 18.53s7.91 18.53 18.38 18.53zm42.33-18.53c0-17.25 13.14-30.45 30.7-30.45 11.4 0 21.28 5.9 25.93 14.94l-10.81 6.25c-2.56-5.44-8.26-8.92-15.24-8.92-10.23 0-18.02 7.76-18.02 18.18s7.79 18.18 18.02 18.18c6.98 0 12.68-3.59 15.47-8.91l10.82 6.13c-4.89 9.15-14.77 15.06-26.17 15.06-17.56 0-30.7-13.32-30.7-30.46zm108.85 12.62c0 11.58-10.12 17.84-22.68 17.84-11.63 0-20-5.22-23.72-13.55l10.81-6.26c1.87 5.22 6.52 8.34 12.91 8.34 5.59 0 9.89-1.85 9.89-6.48 0-10.31-31.28-4.52-31.28-25.25 0-10.88 9.42-17.71 21.28-17.71 9.53 0 17.44 4.4 21.51 12.04l-10.58 5.91c-2.09-4.52-6.16-6.6-10.93-6.6-4.54 0-8.49 1.96-8.49 6.13 0 10.54 31.28 4.17 31.28 25.59zm53.62 0c0 11.58-10.12 17.84-22.68 17.84-11.63 0-20.01-5.22-23.73-13.55l10.82-6.26c1.86 5.22 6.51 8.34 12.91 8.34 5.58 0 9.88-1.85 9.88-6.48 0-10.31-31.28-4.52-31.28-25.25 0-10.88 9.42-17.71 21.28-17.71 9.54 0 17.45 4.4 21.52 12.04l-10.59 5.91c-2.09-4.52-6.16-6.6-10.93-6.6-4.53 0-8.49 1.96-8.49 6.13 0 10.54 31.29 4.17 31.29 25.59z"
-                        />
-                        <path
-                          d="m82.79.18c-22.03 0-35.81 10.97-41.32 32.91 8.27-10.97 17.91-15.09 28.93-12.35 6.28 1.57 10.77 6.11 15.75 11.14 8.1 8.18 17.48 17.66 37.96 17.66 22.03 0 35.8-10.97 41.31-32.91-8.26 10.97-17.9 15.08-28.92 12.34-6.28-1.56-10.78-6.11-15.75-11.13-8.1-8.19-17.48-17.66-37.96-17.66zm-41.32 49.36c-22.03 0-35.8 10.97-41.31 32.91 8.26-10.97 17.9-15.08 28.92-12.34 6.29 1.56 10.78 6.11 15.75 11.13 8.1 8.19 17.48 17.66 37.96 17.66 22.04 0 35.81-10.97 41.32-32.91-8.27 10.97-17.91 15.09-28.92 12.35-6.29-1.57-10.78-6.11-15.76-11.14-8.1-8.18-17.48-17.66-37.96-17.66z"
-                        />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <div class="w-full lg:w-1/2 px-5 flex justify-center">
+              <img
+                src="./assets/img/foto-personal.jpg"
+                alt="Foto en primera persona"
+                class="rounded-2xl shadow-lg max-w-[350px] w-full object-cover"
+              />
             </div>
-            <div class="w-full px-5">
-              <div class="scroll-revealed relative z-10 mx-auto max-w-[845px]">
-                <figure class="mt-16">
-                  <img
-                    src="./assets/img/hero.png"
-                    alt="Hero image"
-                    class="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
-                  />
-                </figure>
-
-                <div class="absolute -left-9 bottom-0 z-[-1]">
-                  <img
-                    src="./assets/img/dots.svg"
-                    alt
-                    class="w-[120px] opacity-75"
-                  />
-                </div>
-
-                <div class="absolute -right-6 -top-6 z-[-1]">
-                  <img
-                    src="./assets/img/dots.svg"
-                    alt
-                    class="w-[120px] opacity-75"
-                  />
-                </div>
+            <div class="w-full lg:w-1/2 px-5 flex flex-col items-start justify-center mt-8 lg:mt-0">
+              <h1
+                class="mb-6 text-3xl font-bold leading-snug text-primary-color sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-tight"
+              >
+                Aprende italiano de forma auténtica con un nativo que vive en Ecuador
+              </h1>
+              <p class="mb-6 text-lg text-primary-color">
+                Conéctate por videollamada o sal a comer en persona y mejora tu italiano conversando de verdad
+              </p>
+              <div class="flex gap-4">
+                <a
+                  href="#contact"
+                  class="inline-block px-6 py-3 rounded-md bg-green-400 text-white font-semibold shadow-md hover:bg-green-500 transition"
+                  role="button"
+                  >Reserva una clase online</a
+                >
+                <a
+                  href="#pricing"
+                  class="inline-block px-6 py-3 rounded-md bg-[#CE2B37] text-white font-semibold shadow-md hover:bg-red-700 transition"
+                  role="button"
+                  >Conoce los encuentros presenciales</a
+                >
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- About section -->
+      <!-- ACERCA DE -->
       <section id="about" class="section-area">
         <div class="container">
           <div class="grid grid-cols-1 gap-14 lg:grid-cols-2">
-            <div class="w-full">
+            <div class="w-full flex justify-center">
               <figure class="scroll-revealed max-w-[480px] mx-auto">
                 <img
-                  src="./assets/img/about-img.jpg"
-                  alt="About image"
+                  src="./assets/img/foto-ig-grupo.jpg"
+                  alt="Foto de Instagram con otros"
                   class="rounded-xl"
                 />
               </figure>
             </div>
-
-            <div class="w-full">
+            <div class="w-full flex items-center">
               <div class="scroll-revealed">
                 <h6 class="mb-2 block text-lg font-semibold text-primary">
-                  About Us
+                  Acerca de mí
                 </h6>
                 <h2 class="mb-6">
-                  Our team comes with the experience and knowledge
+                  Soy un italiano enamorado de mi tierra y apasionado por compartirla con los demás.
                 </h2>
-              </div>
-
-              <div class="tabs scroll-revealed">
-                <nav
-                  class="tabs-nav flex flex-wrap gap-4 my-8"
-                  role="tablist"
-                  aria-label="About us tabs"
-                >
-                  <button
-                    type="button"
-                    class="tabs-link inline-block py-2 px-4 rounded-md text-body-light-12 dark:text-body-dark-12 bg-body-light-12/10 dark:bg-body-dark-12/10 text-inherit font-medium hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
-                    data-web-toggle="tabs"
-                    data-web-target="tabs-panel-profile"
-                    id="tabs-list-profile"
-                    role="tab"
-                    aria-controls="tabs-panel-profile"
-                  >
-                    Our Profile
-                  </button>
-
-                  <button
-                    type="button"
-                    class="tabs-link inline-block py-2 px-4 rounded-md text-body-light-12 dark:text-body-dark-12 bg-body-light-12/10 dark:bg-body-dark-12/10 text-inherit font-medium hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
-                    data-web-toggle="tabs"
-                    data-web-target="tabs-panel-vision"
-                    id="tabs-list-vision"
-                    role="tab"
-                    aria-controls="tabs-panel-vision"
-                  >
-                    Our Vision
-                  </button>
-
-                  <button
-                    type="button"
-                    class="tabs-link inline-block py-2 px-4 rounded-md text-body-light-12 dark:text-body-dark-12 bg-body-light-12/10 dark:bg-body-dark-12/10 text-inherit font-medium hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
-                    data-web-toggle="tabs"
-                    data-web-target="tabs-panel-history"
-                    id="tabs-list-history"
-                    role="tab"
-                    aria-controls="tabs-panel-history"
-                  >
-                    Our History
-                  </button>
-                </nav>
-
-                <div
-                  class="tabs-content mt-4"
-                  id="tabs-panel-profile"
-                  tabindex="-1"
-                  role="tabpanel"
-                  aria-labelledby="tabs-list-profile"
-                >
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, look like
-                    readable English.
-                  </p>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have in some form, by injected
-                    humour.
-                  </p>
-                </div>
-
-                <div
-                  class="tabs-content mt-4"
-                  id="tabs-panel-vision"
-                  tabindex="-1"
-                  role="tabpanel"
-                  aria-labelledby="tabs-list-vision"
-                >
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, look like
-                    readable English.
-                  </p>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have in some form, by injected
-                    humour.
-                  </p>
-                </div>
-
-                <div
-                  class="tabs-content mt-4"
-                  id="tabs-panel-history"
-                  tabindex="-1"
-                  role="tabpanel"
-                  aria-labelledby="tabs-list-history"
-                >
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, look like
-                    readable English.
-                  </p>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have in some form, by injected
-                    humour.
-                  </p>
-                </div>
+                <p>
+                  A través de conversaciones naturales y experiencias auténticas, quiero ayudarte a conocer no solo el idioma italiano, sino también su esencia cultural, su gente, su comida y su forma de ver la vida.
+                  <br><br>
+                  Ya sea por videollamada o en persona, te ofrezco un espacio relajado y ameno para practicar, aprender y disfrutar del italiano tal como se habla en Italia, con alguien que lo vive cada día.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Services section -->
+      <!-- BENEFICIOS -->
       <section id="services" class="section-area">
         <div class="container">
           <div class="scroll-revealed text-center max-w-[550px] mx-auto mb-12">
             <h6 class="mb-2 block text-lg font-semibold text-primary">
-              Services
+              Lo que obtienes con esta experiencia
             </h6>
-            <h2 class="mb-6">Our Best Services</h2>
-            <p>
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration in some form.
-            </p>
+            <h2 class="mb-6">Beneficios</h2>
           </div>
-
           <div class="row">
             <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
               <div class="group hover:-translate-y-1">
-                <div
-                  class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color"
-                >
-                  <i class="lni lni-capsule"></i>
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-[#009246] text-white">
+                  <i class="lni lni-comments-alt"></i>
                 </div>
                 <div class="w-full">
                   <h4 class="text-[1.25rem]/tight font-semibold mb-5">
-                    Refreshing Design
+                    Practica italiano con un nativo
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatum dolores autem quidem odit beatae perspiciatis!
-                    Rem.
+                    Aprende el idioma tal como se habla en la vida real, con frases cotidianas, expresiones naturales y correcciones al momento.
                   </p>
                 </div>
               </div>
             </div>
-
             <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
               <div class="group hover:-translate-y-1">
-                <div
-                  class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color"
-                >
-                  <i class="lni lni-tailwindcss"></i>
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-[#FFFFFF] text-[#009246] border border-[#009246]">
+                  <i class="lni lni-coffee-cup"></i>
                 </div>
                 <div class="w-full">
                   <h4 class="text-[1.25rem]/tight font-semibold mb-5">
-                    Solid Tailwind CSS
+                    Espacio cómodo y relajado
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatum dolores autem quidem odit beatae perspiciatis!
-                    Rem.
+                    Ya sea online o en persona, la idea es que te sientas en confianza para equivocarte, preguntar, reír y disfrutar mientras aprendes.
                   </p>
                 </div>
               </div>
             </div>
-
             <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
               <div class="group hover:-translate-y-1">
-                <div
-                  class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color"
-                >
-                  <i class="lni lni-gift"></i>
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-[#CE2B37] text-white">
+                  <i class="lni lni-users"></i>
                 </div>
                 <div class="w-full">
                   <h4 class="text-[1.25rem]/tight font-semibold mb-5">
-                    Free and Open-Source
+                    Socializa con otros aprendices
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatum dolores autem quidem odit beatae perspiciatis!
-                    Rem.
+                    En encuentros presenciales podrías conocer a otros estudiantes con tus mismos intereses. Practicar en grupo también es una forma divertida de mejorar.
                   </p>
                 </div>
               </div>
             </div>
-
             <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
               <div class="group hover:-translate-y-1">
-                <div
-                  class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color"
-                >
-                  <i class="lni lni-layout"></i>
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-[#009246] text-white">
+                  <i class="lni lni-pizza"></i>
                 </div>
                 <div class="w-full">
                   <h4 class="text-[1.25rem]/tight font-semibold mb-5">
-                    Multipurpose Template
+                    Degusta platos italianos típicos
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatum dolores autem quidem odit beatae perspiciatis!
-                    Rem.
+                    Si eliges la opción presencial, nos veremos en restaurantes con auténtica comida italiana. Así aprenderás el idioma... ¡con todos los sentidos!
                   </p>
                 </div>
               </div>
             </div>
-
             <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
               <div class="group hover:-translate-y-1">
-                <div
-                  class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color"
-                >
-                  <i class="lni lni-layers"></i>
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-[#FFFFFF] text-[#CE2B37] border border-[#CE2B37]">
+                  <i class="lni lni-graduation"></i>
                 </div>
                 <div class="w-full">
                   <h4 class="text-[1.25rem]/tight font-semibold mb-5">
-                    Fully Customizable
+                    Clases personalizadas según tu nivel
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatum dolores autem quidem odit beatae perspiciatis!
-                    Rem.
+                    Ya seas principiante o avanzado, las sesiones se adaptan a tu ritmo y tus intereses.
                   </p>
                 </div>
               </div>
             </div>
-
             <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
               <div class="group hover:-translate-y-1">
-                <div
-                  class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color"
-                >
-                  <i class="lni lni-grid-alt"></i>
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-[#CE2B37] text-white">
+                  <i class="lni lni-calendar"></i>
                 </div>
                 <div class="w-full">
                   <h4 class="text-[1.25rem]/tight font-semibold mb-5">
-                    All Essential Elements
+                    Horarios flexibles
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatum dolores autem quidem odit beatae perspiciatis!
-                    Rem.
+                    Tú eliges cuándo quieres practicar, de acuerdo a tu disponibilidad.
                   </p>
                 </div>
               </div>
@@ -618,239 +417,78 @@
         </div>
       </section>
 
-      <!-- Pricing section -->
+      <!-- PRECIOS -->
       <section id="pricing" class="section-area">
         <div class="container">
           <div class="scroll-revealed text-center max-w-[550px] mx-auto mb-12">
             <h6 class="mb-2 block text-lg font-semibold text-primary">
-              Pricing
+              💻 Practica tu italiano online
             </h6>
-            <h2 class="mb-6">Pricing & Plans</h2>
-            <p>
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration in some form.
-            </p>
+            <h2 class="mb-6">Precios & Opciones</h2>
           </div>
-
           <div class="row">
             <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
-              <div
-                class="rounded-xl py-12 px-9 bg-body-light-1 dark:bg-body-dark-12/10 text-center shadow-card-1 hover:shadow-lg"
-              >
+              <div class="rounded-xl py-12 px-9 bg-body-light-1 dark:bg-body-dark-12/10 text-center shadow-card-1 hover:shadow-lg">
                 <div>
-                  <h6
-                    class="inline-block font-medium text-base mb-6 text-primary bg-primary/10 rounded-md py-2 px-8 pricing-title"
-                  >
-                    Starter
+                  <h6 class="inline-block font-medium text-base mb-6 text-primary bg-primary/10 rounded-md py-2 px-8 pricing-title">
+                    Clase única – $15
                   </h6>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Iste, similique ea.
-                  </p>
-                  <div class="pt-8">
-                    <h2
-                      class="font-semibold inline-block relative pl-4 text-[55px]"
-                    >
-                      <span
-                        class="font-normal text-body-light-11 dark:text-body-dark-11 text-[1.25rem] absolute left-0 top-1.5"
-                        >$</span
-                      >0<span
-                        class="text-[1.125rem] inline-block text-body-light-11 dark:text-body-dark-11 font-normal"
-                        >/mo</span
-                      >
-                    </h2>
-                  </div>
-                </div>
-                <div class="pt-8 pb-10">
-                  <a
-                    href="javascript:void(0)"
-                    class="inline-block font-medium px-6 py-3 rounded-md bg-primary/10 text-primary hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
-                    >Start Free Trial</a
-                  >
-                </div>
-                <div>
-                  <ul>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-primary text-base leading-[24px]"
-                      ></i>
-                      <span>Cras justo odio.</span>
-                    </li>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-primary text-base leading-[24px]"
-                      ></i>
-                      <span>Dapibus ac facilisis in.</span>
-                    </li>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-body-light-11 dark:text-body-dark-11 text-base leading-[24px]"
-                      ></i>
-                      <span>Morbi leo risus.</span>
-                    </li>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-body-light-11 dark:text-body-dark-11 text-base leading-[24px]"
-                      ></i>
-                      <span>Excepteur sint occaecat velit.</span>
-                    </li>
+                  <ul class="text-left mb-6">
+                    <li>⏱ Duración: 1 hora (¡los primeros 30 minutos son gratis!)</li>
+                    <li>🗣️ Conversación 100% en italiano (según tu nivel)</li>
+                    <li>📌 Correcciones, vocabulario y expresiones cotidianas</li>
+                    <li>✅ Ideal para quienes quieren probar la experiencia</li>
                   </ul>
+                  <a
+                    href="#contact"
+                    class="inline-block font-medium px-6 py-3 rounded-md bg-green-400 text-white hover:bg-green-500 focus:bg-green-500"
+                    >Reservar ahora</a
+                  >
                 </div>
               </div>
             </div>
-
             <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
-              <div
-                class="rounded-xl py-12 px-9 bg-body-light-1 dark:bg-body-dark-12/10 text-center shadow-lg"
-              >
+              <div class="rounded-xl py-12 px-9 bg-body-light-1 dark:bg-body-dark-12/10 text-center shadow-lg">
                 <div>
-                  <h6
-                    class="inline-block font-medium text-base mb-6 text-primary-color bg-primary rounded-md py-2 px-8 pricing-title"
-                  >
-                    Exclusive
+                  <h6 class="inline-block font-medium text-base mb-6 text-primary-color bg-primary rounded-md py-2 px-8 pricing-title">
+                    Pack de 4 clases – $50
                   </h6>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Iste, similique ea.
-                  </p>
-                  <div class="pt-8">
-                    <h2
-                      class="font-semibold inline-block relative pl-4 text-[55px]"
-                    >
-                      <span
-                        class="font-normal text-body-light-11 dark:text-body-dark-11 text-[1.25rem] absolute left-0 top-1.5"
-                        >$</span
-                      >99<span
-                        class="text-[1.125rem] inline-block text-body-light-11 dark:text-body-dark-11 font-normal"
-                        >/mo</span
-                      >
-                    </h2>
-                  </div>
-                </div>
-                <div class="pt-8 pb-10">
-                  <a
-                    href="javascript:void(0)"
-                    class="inline-block font-medium px-6 py-3 rounded-md bg-primary text-primary-color hover:bg-primary-light-10 dark:hover:bg-primary-dark-10 hover:text-primary-color focus:bg-primary-light-10 dark:focus:bg-primary-dark-10 focus:text-primary-color"
-                    >Purchase Now</a
-                  >
-                </div>
-                <div>
-                  <ul>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-primary text-base leading-[24px]"
-                      ></i>
-                      <span>Cras justo odio.</span>
-                    </li>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-primary text-base leading-[24px]"
-                      ></i>
-                      <span>Dapibus ac facilisis in.</span>
-                    </li>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-primary text-base leading-[24px]"
-                      ></i>
-                      <span>Morbi leo risus.</span>
-                    </li>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-body-light-11 dark:text-body-dark-11 text-base leading-[24px]"
-                      ></i>
-                      <span>Excepteur sint occaecat velit.</span>
-                    </li>
+                  <ul class="text-left mb-6">
+                    <li>⏱ 4 sesiones de 1 hora</li>
+                    <li>🎁 ¡La primera media hora de la primera clase es gratis!</li>
+                    <li>🧭 Avance personalizado por temas</li>
+                    <li>🧾 Informe breve después de cada clase (errores, recomendaciones)</li>
+                    <li>✅ Ahorra $10 frente a la clase individual</li>
                   </ul>
+                  <a
+                    href="#contact"
+                    class="inline-block font-medium px-6 py-3 rounded-md bg-[#009246] text-white hover:bg-green-700 focus:bg-green-700"
+                    >Reservar pack</a
+                  >
                 </div>
               </div>
             </div>
-
             <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
-              <div
-                class="rounded-xl py-12 px-9 bg-body-light-1 dark:bg-body-dark-12/10 text-center shadow-card-1 hover:shadow-lg"
-              >
+              <div class="rounded-xl py-12 px-9 bg-body-light-1 dark:bg-body-dark-12/10 text-center shadow-card-1 hover:shadow-lg">
                 <div>
-                  <h6
-                    class="inline-block font-medium text-base mb-6 text-primary bg-primary/10 rounded-md py-2 px-8 pricing-title"
-                  >
-                    Premium
+                  <h6 class="inline-block font-medium text-base mb-6 text-primary bg-primary/10 rounded-md py-2 px-8 pricing-title">
+                    🍷 Encuentros presenciales en Ecuador
                   </h6>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Iste, similique ea.
-                  </p>
-                  <div class="pt-8">
-                    <h2
-                      class="font-semibold inline-block relative pl-4 text-[55px]"
-                    >
-                      <span
-                        class="font-normal text-body-light-11 dark:text-body-dark-11 text-[1.25rem] absolute left-0 top-1.5"
-                        >$</span
-                      >150<span
-                        class="text-[1.125rem] inline-block text-body-light-11 dark:text-body-dark-11 font-normal"
-                        >/mo</span
-                      >
-                    </h2>
-                  </div>
-                </div>
-                <div class="pt-8 pb-10">
-                  <a
-                    href="javascript:void(0)"
-                    class="inline-block font-medium px-6 py-3 rounded-md bg-primary/10 text-primary hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
-                    >Purchase Now</a
-                  >
-                </div>
-                <div>
-                  <ul>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-primary text-base leading-[24px]"
-                      ></i>
-                      <span>Cras justo odio.</span>
-                    </li>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-primary text-base leading-[24px]"
-                      ></i>
-                      <span>Dapibus ac facilisis in.</span>
-                    </li>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-primary text-base leading-[24px]"
-                      ></i>
-                      <span>Morbi leo risus.</span>
-                    </li>
-                    <li
-                      class="text-left relative mb-3 inline-flex gap-3 w-full"
-                    >
-                      <i
-                        class="lni lni-checkmark-circle text-primary text-base leading-[24px]"
-                      ></i>
-                      <span>Excepteur sint occaecat velit.</span>
-                    </li>
+                  <ul class="text-left mb-6">
+                    <li>Encuentro en restaurante italiano – <b>$25 por persona</b></li>
+                    <li>🕒 1 hora y media de conversación en italiano</li>
+                    <li>🍝 Ambiente auténtico en restaurante italiano (consumo no incluido)</li>
+                    <li>👥 Opción de compartir la experiencia con otros estudiantes</li>
+                    <li>🗣️ Corrección de errores y conversación guiada por temáticas</li>
+                    <li>🎫 Incluye guía cultural breve sobre la comida y costumbres italianas</li>
+                    <li class="mt-2 text-xs text-red-700">⚠️ El consumo de alimentos y bebidas corre por cuenta de cada participante.</li>
+                    <li class="mt-2 text-xs text-green-700">💡 Descuentos disponibles para grupos de 3 o más personas.</li>
                   </ul>
+                  <a
+                    href="#contact"
+                    class="inline-block font-medium px-6 py-3 rounded-md bg-[#CE2B37] text-white hover:bg-red-700 focus:bg-red-700"
+                    >Agendar encuentro</a
+                  >
                 </div>
               </div>
             </div>
@@ -858,187 +496,69 @@
         </div>
       </section>
 
-      <!-- Call action section -->
-      <section
-        id="call-action"
-        class="section-area !bg-primary !text-primary-color"
-      >
-        <div class="container">
-          <div class="scroll-revealed text-center max-w-[550px] mx-auto">
-            <h2 class="mb-8 text-inherit">
-              We love to make perfect solutions for your business
-            </h2>
-            <p>
-              Why I say old chap that is, spiffing off his nut cor blimey
-              guvnords geeza bloke knees up bobby, sloshed arse William cack
-              Richard. Bloke fanny around chesed of bum bag old lost the pilot
-              say there spiffing off his nut.
-            </p>
-            <a
-              href="javascript:void(0)"
-              class="inline-block px-5 py-3 rounded-md mt-11 bg-green-400 text-white hover:bg-green-500 hover:text-white focus:bg-green-500 focus:text-white"
-              role="button"
-              >Get Started Now</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <!-- Testimonials section -->
+      <!-- TESTIMONIOS -->
       <section id="testimonials" class="section-area">
         <div class="container">
           <div class="scroll-revealed text-center max-w-[550px] mx-auto mb-12">
             <h6 class="mb-2 block text-lg font-semibold text-primary">
-              Client Reviews
+              Testimonios
             </h6>
-            <h2 class="mb-6">Our Testimonials</h2>
-            <p>
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration in some form.
-            </p>
+            <h2 class="mb-6">¿Qué dicen los estudiantes?</h2>
           </div>
-
-          <div
-            class="swiper testimonial-carousel common-carousel scroll-revealed"
-          >
+          <div class="swiper testimonial-carousel common-carousel scroll-revealed">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div
-                  class="rounded-xl bg-body-light-1 dark:bg-body-dark-12/10 px-5 py-8 shadow-card-2 sm:px-8"
-                >
-                  <p
-                    class="mb-6 text-base text-body-light-11 dark:text-body-dark-11"
-                  >
-                    "Our members are so impressed. It's intuitive. It's clean.
-                    It's distraction free. If you're building a community."
+                <div class="rounded-xl bg-body-light-1 dark:bg-body-dark-12/10 px-5 py-8 shadow-card-2 sm:px-8">
+                  <p class="mb-6 text-base text-body-light-11 dark:text-body-dark-11">
+                    “Nunca pensé que aprender italiano podía ser tan divertido. Me encantó que no fuera una clase tradicional, sino una conversación real. ¡Me sentí en Roma por un rato!”
                   </p>
                   <figure class="flex items-center gap-4">
                     <div class="h-[50px] w-[50px] overflow-hidden">
-                      <img
-                        src="./assets/img/avatar/avatar-4.jpg"
-                        alt="Testimonial picture"
-                        class="h-full w-full rounded-full object-cover"
-                      />
+                      <img src="./assets/img/avatar/avatar-4.jpg" alt="Valeria G." class="h-full w-full rounded-full object-cover" />
                     </div>
                     <figcaption class="flex-grow">
-                      <h3
-                        class="text-sm font-semibold text-body-light-11 dark:text-body-dark-11"
-                      >
-                        Ralf Nacht
+                      <h3 class="text-sm font-semibold text-body-light-11 dark:text-body-dark-11">
+                        🌟 Valeria G. (Guayaquil)
                       </h3>
-                      <p
-                        class="text-xs text-body-light-10 dark:text-body-dark-10"
-                      >
-                        Web Entrepreneur
-                      </p>
                     </figcaption>
                   </figure>
                 </div>
               </div>
-
               <div class="swiper-slide">
-                <div
-                  class="rounded-xl bg-body-light-1 dark:bg-body-dark-12/10 px-5 py-8 shadow-card-2 sm:px-8"
-                >
-                  <p
-                    class="mb-6 text-base text-body-light-11 dark:text-body-dark-11"
-                  >
-                    "Our members are so impressed. It's intuitive. It's clean.
-                    It's distraction free. If you're building a community."
+                <div class="rounded-xl bg-body-light-1 dark:bg-body-dark-12/10 px-5 py-8 shadow-card-2 sm:px-8">
+                  <p class="mb-6 text-base text-body-light-11 dark:text-body-dark-11">
+                    “Tomé el paquete de 4 clases online y lo recomiendo al 100%. Aprendí expresiones que jamás había visto en los libros. Además, el profe es súper paciente y carismático.”
                   </p>
                   <figure class="flex items-center gap-4">
                     <div class="h-[50px] w-[50px] overflow-hidden">
-                      <img
-                        src="./assets/img/avatar/avatar-5.jpg"
-                        alt="Testimonial picture"
-                        class="h-full w-full rounded-full object-cover"
-                      />
+                      <img src="./assets/img/avatar/avatar-5.jpg" alt="Andrés M." class="h-full w-full rounded-full object-cover" />
                     </div>
                     <figcaption class="flex-grow">
-                      <h3
-                        class="text-sm font-semibold text-body-light-11 dark:text-body-dark-11"
-                      >
-                        Sebastian Toft
+                      <h3 class="text-sm font-semibold text-body-light-11 dark:text-body-dark-11">
+                        🌟 Andrés M. (Quito)
                       </h3>
-                      <p
-                        class="text-xs text-body-light-10 dark:text-body-dark-10"
-                      >
-                        Web Developer
-                      </p>
                     </figcaption>
                   </figure>
                 </div>
               </div>
-
               <div class="swiper-slide">
-                <div
-                  class="rounded-xl bg-body-light-1 dark:bg-body-dark-12/10 px-5 py-8 shadow-card-2 sm:px-8"
-                >
-                  <p
-                    class="mb-6 text-base text-body-light-11 dark:text-body-dark-11"
-                  >
-                    "Our members are so impressed. It's intuitive. It's clean.
-                    It's distraction free. If you're building a community."
+                <div class="rounded-xl bg-body-light-1 dark:bg-body-dark-12/10 px-5 py-8 shadow-card-2 sm:px-8">
+                  <p class="mb-6 text-base text-body-light-11 dark:text-body-dark-11">
+                    “Fui a un encuentro presencial y fue increíble. La comida, la conversación y el ambiente fueron perfectos. Aprendí mientras comía lasaña… ¿qué más se puede pedir?”
                   </p>
                   <figure class="flex items-center gap-4">
                     <div class="h-[50px] w-[50px] overflow-hidden">
-                      <img
-                        src="./assets/img/avatar/avatar-6.jpg"
-                        alt="Testimonial picture"
-                        class="h-full w-full rounded-full object-cover"
-                      />
+                      <img src="./assets/img/avatar/avatar-6.jpg" alt="Carla V." class="h-full w-full rounded-full object-cover" />
                     </div>
                     <figcaption class="flex-grow">
-                      <h3
-                        class="text-sm font-semibold text-body-light-11 dark:text-body-dark-11"
-                      >
-                        Bao Shen
+                      <h3 class="text-sm font-semibold text-body-light-11 dark:text-body-dark-11">
+                        🌟 Carla V. (Cuenca)
                       </h3>
-                      <p
-                        class="text-xs text-body-light-10 dark:text-body-dark-10"
-                      >
-                        UI/UX Designer
-                      </p>
-                    </figcaption>
-                  </figure>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div
-                  class="rounded-xl bg-body-light-1 dark:bg-body-dark-12/10 px-5 py-8 shadow-card-2 sm:px-8"
-                >
-                  <p
-                    class="mb-6 text-base text-body-light-11 dark:text-body-dark-11"
-                  >
-                    "Our members are so impressed. It's intuitive. It's clean.
-                    It's distraction free. If you're building a community."
-                  </p>
-                  <figure class="flex items-center gap-4">
-                    <div class="h-[50px] w-[50px] overflow-hidden">
-                      <img
-                        src="./assets/img/avatar/avatar-7.jpg"
-                        alt="Testimonial picture"
-                        class="h-full w-full rounded-full object-cover"
-                      />
-                    </div>
-                    <figcaption class="flex-grow">
-                      <h3
-                        class="text-sm font-semibold text-body-light-11 dark:text-body-dark-11"
-                      >
-                        Emanuel Velzeboer
-                      </h3>
-                      <p
-                        class="text-xs text-body-light-10 dark:text-body-dark-10"
-                      >
-                        Graphics Designer
-                      </p>
                     </figcaption>
                   </figure>
                 </div>
               </div>
             </div>
-
             <div class="mt-[60px] flex items-center justify-center gap-1">
               <div class="swiper-button-prev">
                 <i class="lni lni-arrow-left"></i>
@@ -1051,940 +571,168 @@
         </div>
       </section>
 
-      <!-- FAQ section -->
+      <!-- PREGUNTAS FRECUENTES -->
       <section id="faq" class="section-area relative">
         <div class="container">
           <div class="scroll-revealed text-center max-w-[550px] mx-auto mb-12">
-            <h6 class="mb-2 block text-lg font-semibold text-primary">FAQ</h6>
-            <h2 class="mb-6">Any Questions? Look Here</h2>
-            <p>
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration in some form.
-            </p>
+            <h6 class="mb-2 block text-lg font-semibold text-primary">Preguntas frecuentes</h6>
+            <h2 class="mb-6">¿Tienes dudas?</h2>
           </div>
-
           <div class="grid gap-x-8 gap-y-12 grid-cols-1 lg:grid-cols-2">
             <div class="scroll-revealed flex">
-              <div
-                class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]"
-              >
+              <div class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]">
                 <i class="lni lni-question-circle"></i>
               </div>
               <div class="w-full">
-                <h3
-                  class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl"
-                >
-                  Lorem ipsum dolor sit amet?
+                <h3 class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl">
+                  ¿Necesito tener conocimientos previos de italiano?
                 </h3>
                 <p class="text-body-light-11 dark:text-body-dark-11">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Corrupti minus a eaque labore delectus quas exercitationem
-                  iusto doloribus blanditiis assumenda.
+                  No, no es necesario. Las sesiones se adaptan a tu nivel, desde principiante hasta avanzado. Puedes empezar desde cero y aprender a tu ritmo.
                 </p>
               </div>
             </div>
 
             <div class="scroll-revealed flex">
-              <div
-                class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]"
-              >
+              <div class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]">
                 <i class="lni lni-question-circle"></i>
               </div>
               <div class="w-full">
-                <h3
-                  class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl"
-                >
-                  Lorem ipsum dolor sit amet?
+                <h3 class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl">
+                  ¿Cómo se realizan las clases online?
                 </h3>
                 <p class="text-body-light-11 dark:text-body-dark-11">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Corrupti minus a eaque labore delectus quas exercitationem
-                  iusto doloribus blanditiis assumenda.
+                  Las sesiones se hacen por videollamada (Zoom, Google Meet o WhatsApp Video). Antes de la primera clase, recibirás un enlace para conectarte fácilmente.
                 </p>
               </div>
             </div>
 
             <div class="scroll-revealed flex">
-              <div
-                class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]"
-              >
+              <div class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]">
                 <i class="lni lni-question-circle"></i>
               </div>
               <div class="w-full">
-                <h3
-                  class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl"
-                >
-                  Lorem ipsum dolor sit amet?
+                <h3 class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl">
+                  ¿Qué incluye la media hora gratis?
                 </h3>
                 <p class="text-body-light-11 dark:text-body-dark-11">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Corrupti minus a eaque labore delectus quas exercitationem
-                  iusto doloribus blanditiis assumenda.
+                  Es una oportunidad para que me conozcas, expliques tus objetivos y empecemos a practicar sin compromiso. Aplica solo en la primera sesión online.
                 </p>
               </div>
             </div>
 
             <div class="scroll-revealed flex">
-              <div
-                class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]"
-              >
+              <div class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]">
                 <i class="lni lni-question-circle"></i>
               </div>
               <div class="w-full">
-                <h3
-                  class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl"
-                >
-                  Lorem ipsum dolor sit amet?
+                <h3 class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl">
+                  ¿Puedo compartir una clase online con un amigo o familiar?
                 </h3>
                 <p class="text-body-light-11 dark:text-body-dark-11">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Corrupti minus a eaque labore delectus quas exercitationem
-                  iusto doloribus blanditiis assumenda.
+                  Sí, pero lo ideal es que ambos tengan niveles similares para aprovechar mejor la clase. Si deseas compartir una clase, avísame con anticipación.
+                </p>
+              </div>
+            </div>
+
+            <div class="scroll-revealed flex">
+              <div class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]">
+                <i class="lni lni-question-circle"></i>
+              </div>
+              <div class="w-full">
+                <h3 class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl">
+                  ¿Dónde se realizan los encuentros presenciales?
+                </h3>
+                <p class="text-body-light-11 dark:text-body-dark-11">
+                  En restaurantes italianos seleccionados de [Ciudad, Ecuador]. Después de reservar, recibirás una lista de opciones y horarios disponibles.
+                </p>
+              </div>
+            </div>
+
+            <div class="scroll-revealed flex">
+              <div class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]">
+                <i class="lni lni-question-circle"></i>
+              </div>
+              <div class="w-full">
+                <h3 class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl">
+                  ¿El costo presencial incluye la comida?
+                </h3>
+                <p class="text-body-light-11 dark:text-body-dark-11">
+                  No. El valor cubre mi acompañamiento, guía y la experiencia conversacional. Cada participante paga su propio consumo en el restaurante.
+                </p>
+              </div>
+            </div>
+
+            <div class="scroll-revealed flex">
+              <div class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]">
+                <i class="lni lni-question-circle"></i>
+              </div>
+              <div class="w-full">
+                <h3 class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl">
+                  ¿Puedo ir con amigos al encuentro presencial?
+                </h3>
+                <p class="text-body-light-11 dark:text-body-dark-11">
+                  ¡Claro! Es ideal para grupos pequeños (hasta 4 personas). Solo asegúrate de reservar con anticipación y confirmar el número de asistentes.
+                </p>
+              </div>
+            </div>
+
+            <div class="scroll-revealed flex">
+              <div class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]">
+                <i class="lni lni-question-circle"></i>
+              </div>
+              <div class="w-full">
+                <h3 class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl">
+                  ¿Hablan solo italiano en los encuentros?
+                </h3>
+                <p class="text-body-light-11 dark:text-body-dark-11">
+                  Se prioriza el uso del italiano tanto como sea posible, pero si eres principiante, podemos usar algo de español para ayudarte a comprender.
+                </p>
+              </div>
+            </div>
+
+            <div class="scroll-revealed flex">
+              <div class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]">
+                <i class="lni lni-question-circle"></i>
+              </div>
+              <div class="w-full">
+                <h3 class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl">
+                  ¿Cómo hago una reserva?
+                </h3>
+                <p class="text-body-light-11 dark:text-body-dark-11">
+                  Puedes hacerlo por medio del botón de reserva en esta página o escribiendo directamente por WhatsApp. Te confirmaré el horario y método de pago.
+                </p>
+              </div>
+            </div>
+
+            <div class="scroll-revealed flex">
+              <div class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]">
+                <i class="lni lni-question-circle"></i>
+              </div>
+              <div class="w-full">
+                <h3 class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl">
+                  ¿Cómo se realiza el pago?
+                </h3>
+                <p class="text-body-light-11 dark:text-body-dark-11">
+                  El pago se puede hacer por transferencia bancaria, PayPal o en efectivo (para encuentros presenciales). Las instrucciones se envían tras la reserva.
+                </p>
+              </div>
+            </div>
+
+            <div class="scroll-revealed flex">
+              <div class="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-primary-color text-[28px] sm:mr-6 sm:h-[60px] sm:max-w-[60px] sm:text-[32px]">
+                <i class="lni lni-question-circle"></i>
+              </div>
+              <div class="w-full">
+                <h3 class="mb-6 text-xl font-semibold text-body-light-12 dark:text-body-dark-12 sm:text-2xl lg:text-xl xl:text-2xl">
+                  ¿Qué pasa si no puedo asistir a una sesión?
+                </h3>
+                <p class="text-body-light-11 dark:text-body-dark-11">
+                  Puedes reprogramar la clase avisando con al menos 24 horas de anticipación. Si no se avisa con tiempo, la sesión se considera tomada.
                 </p>
               </div>
             </div>
           </div>
-        </div>
-
-        <div>
-          <span class="absolute left-5 top-5 -z-[1]">
-            <svg
-              class="w-20 h-auto fill-teal-500"
-              version="1.0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="1280.000000pt"
-              height="1280.000000pt"
-              viewBox="0 0 1280.000000 1280.000000"
-              preserveAspectRatio="xMidYMid meet"
-            >
-              <g
-                transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                stroke="none"
-              >
-                <path
-                  d="M550 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 12465 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 254
--255 194 -41 395 142 375 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217
-16z"
-                />
-                <path
-                  d="M3110 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 12465 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142
--319 107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M12070 12465 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142
--319 107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M550 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 11185 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 254
--255 194 -41 395 142 375 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217
-16z"
-                />
-                <path
-                  d="M3110 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 11185 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142
--319 107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M12070 11185 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142
--319 107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M550 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 4785 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 4785 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 4785 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M4390 4785 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M5670 4785 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 4785 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 4785 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 4785 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 4785 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 4785 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 3505 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 3505 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 3505 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M4390 3505 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M5670 3505 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 3505 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 3505 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 3505 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 3505 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 3505 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 2225 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M4390 2225 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M5670 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-              </g>
-            </svg>
-          </span>
-          <span class="absolute right-5 bottom-5 -z-[1]">
-            <svg
-              class="w-20 h-auto fill-indigo-500"
-              version="1.0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="1280.000000pt"
-              height="1280.000000pt"
-              viewBox="0 0 1280.000000 1280.000000"
-              preserveAspectRatio="xMidYMid meet"
-            >
-              <g
-                transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                stroke="none"
-              >
-                <path
-                  d="M550 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 12465 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 254
--255 194 -41 395 142 375 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217
-16z"
-                />
-                <path
-                  d="M3110 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 12465 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 12465 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142
--319 107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M12070 12465 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142
--319 107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M550 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 11185 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 254
--255 194 -41 395 142 375 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217
-16z"
-                />
-                <path
-                  d="M3110 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 11185 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 11185 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142
--319 107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M12070 11185 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142
--319 107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M550 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 9905 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 8625 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 7345 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 6065 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 4785 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 4785 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 4785 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M4390 4785 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M5670 4785 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 4785 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 4785 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 4785 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 4785 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 4785 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 3505 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 3505 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 3505 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M4390 3505 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M5670 3505 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 3505 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 3505 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 3505 c-151 -50 -253 -216 -222 -362 25 -119 136 -230 255 -255
-193 -41 394 142 374 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 3505 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 3505 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 2225 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M4390 2225 c-105 -35 -200 -141 -222 -248 -25 -117 32 -244 142 -319
-107 -74 229 -75 337 -3 177 118 201 338 53 485 -85 86 -207 119 -310 85z"
-                />
-                <path
-                  d="M5670 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 2225 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M550 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M1830 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M3110 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M4390 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M5670 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M6950 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M8230 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M9510 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369 -369
-155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M10790 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-                <path
-                  d="M12070 945 c-105 -35 -200 -141 -222 -248 -43 -206 163 -412 369
--369 155 32 275 190 260 339 -11 105 -90 213 -190 262 -61 29 -155 36 -217 16z"
-                />
-              </g>
-            </svg>
-          </span>
         </div>
       </section>
 
@@ -2004,7 +752,7 @@
                       ></i>
                     </div>
                     <div>
-                      <h4 class="text-[1.25rem] text-primary mb-3">Contact</h4>
+                      <h4 class="text-[1.25rem] text-primary mb-3">Contacto</h4>
                       <p class="m-0">0984537278623</p>
                       <p class="m-0">yourmail@gmail.com</p>
                     </div>
@@ -2021,7 +769,7 @@
                       ></i>
                     </div>
                     <div>
-                      <h4 class="text-[1.25rem] text-primary mb-3">Address</h4>
+                      <h4 class="text-[1.25rem] text-primary mb-3">Dirección</h4>
                       <p class="m-0">175 5th Ave, New York, NY 10010</p>
                       <p class="m-0">United States</p>
                     </div>
@@ -2038,9 +786,9 @@
                       ></i>
                     </div>
                     <div>
-                      <h4 class="text-[1.25rem] text-primary mb-3">Schedule</h4>
-                      <p class="m-0">24 Hours / 7 Days Open</p>
-                      <p class="m-0">Office time: 10:00 AM - 5:30 PM</p>
+                      <h4 class="text-[1.25rem] text-primary mb-3">Horario</h4>
+                      <p class="m-0">24 Horas / 7 Días Abierto</p>
+                      <p class="m-0">Horario de oficina: 10:00 AM - 5:30 PM</p>
                     </div>
                   </div>
                 </div>
