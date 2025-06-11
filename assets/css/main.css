@@ -1422,6 +1422,11 @@ p + p{
   background-color: rgb(252 252 253 / var(--tw-bg-opacity));
 }
 
+.bg-footer-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 0 24 / var(--tw-bg-opacity));
+}
+
 .bg-green-400{
   --tw-bg-opacity: 1;
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
