@@ -398,7 +398,7 @@
               <div class="rounded-xl py-12 px-9 bg-body-light-1 dark:bg-body-dark-12/10 text-center shadow-card-1 hover:shadow-lg">
                 <div>
                   <h6 class="inline-block font-medium text-base mb-6 text-primary bg-primary/10 rounded-md py-2 px-8 pricing-title">
-                    Clase única – $15
+                    Clase virtual única – $15
                   </h6>
                   <ul class="text-left mb-6">
                     <li>⏱ Duración: 1 hora (¡los primeros 30 minutos son gratis!)</li>
@@ -407,7 +407,7 @@
                     <li>✅ Ideal para quienes quieren probar la experiencia</li>
                   </ul>
                   <a
-                    href="#contact"
+                    href="#contact" id="reservar-clase"
                     class="inline-block font-medium px-6 py-3 rounded-md bg-green-400 text-white hover:bg-green-500 focus:bg-green-500"
                     >Reservar ahora</a
                   >
@@ -418,7 +418,7 @@
               <div class="rounded-xl py-12 px-9 bg-body-light-1 dark:bg-body-dark-12/10 text-center shadow-lg">
                 <div>
                   <h6 class="inline-block font-medium text-base mb-6 text-primary-color bg-primary rounded-md py-2 px-8 pricing-title">
-                    Pack de 4 clases – $50
+                    Pack de 4 clases virtuales – $50
                   </h6>
                   <ul class="text-left mb-6">
                     <li>⏱ 4 sesiones de 1 hora</li>
@@ -427,7 +427,7 @@
                     <li>🧾 Informe breve después de cada clase (errores, recomendaciones)</li>
                     <li>✅ Ahorra $10 frente a la clase individual</li>
                   </ul>
-                  <a
+                  <a id="reservar-clases"
                     href="#contact"
                     class="inline-block font-medium px-6 py-3 rounded-md bg-[#009246] text-white hover:bg-green-700 focus:bg-green-700"
                     >Reservar pack</a
@@ -444,14 +444,13 @@
                   <ul class="text-left mb-6">
                     <li>Encuentro en restaurante italiano – <b>$25 por persona</b></li>
                     <li>🕒 1 hora y media de conversación en italiano</li>
-                    <li>🍝 Ambiente auténtico en restaurante italiano (consumo no incluido)</li>
+                    <li>🍝 Ambiente auténtico en restaurante con comida italiana</li>
                     <li>👥 Opción de compartir la experiencia con otros estudiantes</li>
                     <li>🗣️ Corrección de errores y conversación guiada por temáticas</li>
                     <li>🎫 Incluye guía cultural breve sobre la comida y costumbres italianas</li>
-                    <li class="mt-2 text-xs text-red-700">⚠️ El consumo de alimentos y bebidas corre por cuenta de cada participante.</li>
                     <li class="mt-2 text-xs text-green-700">💡 Descuentos disponibles para grupos de 3 o más personas.</li>
                   </ul>
-                  <a
+                  <a id="reservar-presencial"
                     href="#contact"
                     class="inline-block font-medium px-6 py-3 rounded-md bg-[#CE2B37] text-white hover:bg-red-700 focus:bg-red-700"
                     >Agendar encuentro</a
@@ -736,7 +735,7 @@
                         type="text"
                         name="phone"
                         class="block w-full px-5 py-3 rounded-md border border-solid border-alpha-light dark:border-alpha-dark text-inherit text-base focus:border-primary"
-                        placeholder="teléfono"
+                        placeholder="Teléfono"
                         required
                       />
                     </div>
@@ -747,8 +746,10 @@
                        class="block w-full px-5 py-3 rounded-md border border-solid border-alpha-light dark:border-alpha-dark text-inherit text-base focus:border-primary"
                         >
                         <option value="" disabled selected>Selecciona el motivo</option>
-                        <option value="agendar">Agendar cita</option>
                         <option value="consulta">Consulta</option>
+                        <option value="clase-unica">Reservar clase virtual única</option>
+                        <option value="pack-4">Reservar pack de cuatro clases virtuales</option>
+                        <option value="clase-presencial">Reservar encuentro presencial</option>
                       </select>
                     </div>
                     <!-- Area de texto -->
@@ -783,7 +784,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-footer-red text-white">
+    <footer class="bg-red-700 text-white">
       <div class="container py-20 lg:py-[100px]">
         <div class="row">
           <div class="col-12 order-first lg:col-4">
@@ -856,6 +857,7 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
     <script src="./assets/js/main.js"></script>
+    <script src="./src/main.js"></script>
     <script>
       // Scroll Reveal
       const sr = ScrollReveal({
