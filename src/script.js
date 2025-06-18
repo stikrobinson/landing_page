@@ -21,6 +21,8 @@ const asignarEnBotones = () => {
 
 };
 
+console.log("Asignando eventos a los botones...");
+
 (function() {
   asignarEnBotones();
 })();

@@ -21,7 +21,7 @@ const database = getDatabase(app);
 const dbRef = ref(database, 'solicitudes');
 
 //Contenedor de las fotos en la seccion acerca de
-  const contenedor = document.getElementById("galeria");
+const contenedor = document.getElementById("galeria");
 
 document.querySelector("button[type='submit']").addEventListener("click", () => {
 
@@ -82,3 +82,4 @@ async function cargarImagenes() {
   cargarImagenes();
 })();
 
+console.log("Has cargado las imagenes...");
