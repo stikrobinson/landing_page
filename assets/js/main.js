@@ -44,35 +44,7 @@ window.addEventListener("scroll", function () {
 
 // Web theme
 const webTheme = document.querySelector("[data-web-trigger=web-theme]"),
-  html = document.querySelector("html");
-
-window.addEventListener("load", function () {
-  var theme = localStorage.getItem("Inazuma_WebTheme");
-
-  if (theme == "light") {
-    webTheme.innerHTML = '<i class="lni lni-sun"></i>';
-  } else if (theme == "dark") {
-    webTheme.innerHTML = '<i class="lni lni-night"></i>';
-  } else {
-    theme = "light";
-    localStorage.setItem("Inazuma_WebTheme", theme);
-    webTheme.innerHTML = '<i class="lni lni-night"></i>';
-  }
-
-  html.dataset.webTheme = theme;
-});
-
-webTheme.addEventListener("click", function () {
-  var theme = localStorage.getItem("Inazuma_WebTheme");
-
-  webTheme.innerHTML =
-    theme == "dark"
-      ? '<i class="lni lni-sun"></i>'
-      : '<i class="lni lni-night"></i>';
-  theme = theme == "dark" ? "light" : "dark";
-  localStorage.setItem("Inazuma_WebTheme", theme);
-  html.dataset.webTheme = theme;
-});
+html = document.querySelector("html");
 
 // Scrollspy
 function scrollspy(event) {
