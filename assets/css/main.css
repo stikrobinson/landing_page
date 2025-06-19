@@ -1239,10 +1239,6 @@ p + p{
   max-width: 250px;
 }
 
-.max-w-\[480px\]{
-  max-width: 480px;
-}
-
 .max-w-\[50px\]{
   max-width: 50px;
 }
@@ -1418,6 +1414,16 @@ p + p{
 .bg-red-700{
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
+.bg-terceary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 146 70 / var(--tw-bg-opacity));
+}
+
+.bg-terceary-dark-1{
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 34 36 / var(--tw-bg-opacity));
 }
 
 .bg-transparent{
@@ -1623,6 +1629,11 @@ p + p{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-red-600{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1667,6 +1678,20 @@ p + p{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.transition-transform{
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-1000{
+  transition-duration: 1000ms;
+}
+
+.ease-in-out{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .row{
@@ -1714,6 +1739,11 @@ p + p{
 .hover\:bg-red-700:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-terceary-light-8:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(62 180 137 / var(--tw-bg-opacity));
 }
 
 .hover\:text-body-dark-12:hover{
