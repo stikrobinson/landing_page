@@ -32,7 +32,7 @@ document.querySelector("button[type='submit']").addEventListener("click", () => 
   const phone = document.querySelector("input[name='phone']").value;
   const subject = document.querySelector("select[name='subject']").value;
   const message = document.querySelector("textarea[name='message']").value;
-  
+  const fechaActual = new Date().toLocaleDateString();
 
   const data = {
     name: name,
@@ -40,6 +40,7 @@ document.querySelector("button[type='submit']").addEventListener("click", () => 
     phone: phone,
     subject: subject,
     message: message,
+    date: fechaActual,
   };
 
   push(dbRef, data);
